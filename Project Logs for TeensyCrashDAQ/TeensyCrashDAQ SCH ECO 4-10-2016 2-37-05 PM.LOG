@@ -1,0 +1,35 @@
+Change Component Parameter Description in C1 Old=CAP CER 0.1UF 50V 10% X7R 0603 New=
+Change Component Parameter Footprint in C1 Old=RAD-0.2 New=0603
+Change Component Parameter Description in C2 Old=CAP CER 0.1UF 50V 10% X7R 0603 New=
+Change Component Parameter Footprint in C2 Old=RAD-0.2 New=0603
+Change Component Parameter Description in C5 Old=CAP CER 0.1UF 50V 10% X7R 0603 New=
+Change Component Parameter Footprint in C5 Old=RAD-0.2 New=0603
+Change Component Parameter Description in C6 Old=CAP CER 0.1UF 50V 10% X7R 0603 New=
+Change Component Parameter Footprint in C6 Old=RAD-0.2 New=0603
+Change Component Parameter Description in C8 Old=CAP CER 0.1UF 50V 10% X7R 0603 New=
+Change Component Parameter Footprint in C8 Old=RAD-0.2 New=0603
+Change Component Parameter Description in C9 Old=CAP CER 0.1UF 50V 10% X7R 0603 New=
+Change Component Parameter Footprint in C9 Old=RAD-0.2 New=0603
+Change Component Parameter Footprint in D1 Old=5mm Rad LED New=0805 Pol
+Change Component Parameter Description in R1 Old=RES SMD 4.7K OHM 1% 1/8W 0805 New=
+Change Component Parameter Footprint in R1 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R2 Old=RES SMD 1K OHM 1% 1/10W 0603 New=
+Change Component Parameter Footprint in R2 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R3 Old=RES SMD 1K OHM 1% 1/10W 0603 New=
+Change Component Parameter Footprint in R3 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R4 Old=RES SMD 1K OHM 1% 1/10W 0603 New=
+Change Component Parameter Footprint in R4 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R5 Old=RES SMD 4.7K OHM 1% 1/8W 0805 New=
+Change Component Parameter Footprint in R5 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R6 Old=RES SMD 4.7K OHM 1% 1/8W 0805 New=
+Change Component Parameter Footprint in R6 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R7 Old=RES SMD 4.7K OHM 1% 1/8W 0805 New=
+Change Component Parameter Footprint in R7 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R8 Old=RES SMD 1K OHM 1% 1/10W 0603 New=
+Change Component Parameter Footprint in R8 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R9 Old=RES SMD 1K OHM 1% 1/10W 0603 New=
+Change Component Parameter Footprint in R9 Old=Axial-0.4 New=0603
+Change Component Parameter Description in R10 Old=RES SMD 1K OHM 1% 1/10W 0603 New=
+Change Component Parameter Footprint in R10 Old=Axial-0.4 New=0603
+Change Component Parameter Footprint in U1 Old=PDIP300-P8 New=SOIC-8
+Change Component Parameter Footprint in Z1 Old=DIODE-0.4 New=SMA
