@@ -1,0 +1,33 @@
+Change Component Parameter Comment in C10 Old= New=1000pF
+Change Component Parameter Description in C10 Old= New=1000pF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Value of Parameter PartNumber in Part C10 Old=GRM188R71H104KA93D New=GRM188R71H102KA01D
+Change Value of Parameter Supplier Part Number 1 in Part C10 Old=490-1519-1-ND New=490-1494-1-ND
+Change Component Parameter Description in C11 Old= New=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Parameter Comment in C12 Old= New=1000pF
+Change Component Parameter Description in C12 Old= New=1000pF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Value of Parameter PartNumber in Part C12 Old=GRM188R71H104KA93D New=GRM188R71H102KA01D
+Change Value of Parameter Supplier Part Number 1 in Part C12 Old=490-1519-1-ND New=490-1494-1-ND
+Change Component Parameter Description in C13 Old= New=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Parameter Description in C15 Old= New=0.22µF ±10% 25V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Value of Parameter PartNumber in Part C15 Old=GRM188R71H104KA93D New=GRM188R71E224KA88D
+Change Value of Parameter Supplier Part Number 1 in Part C15 Old=490-1519-1-ND New=490-3290-1-ND
+Change Component Parameter Description in C17 Old= New=1µF ±10% 10V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Value of Parameter PartNumber in Part C17 Old=GRM188R71H104KA93D New=GRM188R61A105KA61D
+Change Value of Parameter Supplier Part Number 1 in Part C17 Old=490-1519-1-ND New=490-1543-1-ND
+Change Component Parameter Description in C18 Old= New=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Parameter Comment in C20 Old= New=4700pF
+Change Value of Parameter PartNumber in Part C20 Old=GRM188R71H104KA93D New=GRM188R71H472KA01D
+Change Value of Parameter Supplier Part Number 1 in Part C20 Old=490-1519-1-ND New=490-1506-1-ND
+Change Component Parameter Description in C21 Old= New=0.47µF ±10% 25V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Value of Parameter PartNumber in Part C21 Old=GRM188R71H104KA93D New=GRM188R71E474KA12D
+Change Value of Parameter Supplier Part Number 1 in Part C21 Old=490-1519-1-ND New=490-3291-1-ND
+Change Component Parameter Description in C22 Old= New=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Parameter Description in R16 Old= New=0.04 Ohm ±1% 7W Surface Mount Resistor Metal Element ±75ppm/°C 2818
+Change Value of Parameter Manufacturer in Part R16 Old=Panasonic Electronic Components New=Vishay Dale
+Change Value of Parameter PartNumber in Part R16 Old=ERJ-6ENF4701V New=WSHM2818R0400FEA
+Change Value of Parameter Supplier Part Number 1 in Part R16 Old=P4.70KCCT-ND New=541-2632-1-ND
+Change Component Parameter Description in R25 Old= New=0.025 Ohm ±1% 7W Surface Mount Resistor Metal Element ±75ppm/°C 2818
+Change Component Parameter Footprint in R25 Old=0603 New=2818
+Change Value of Parameter Manufacturer in Part R25 Old=Panasonic Electronic Components New=Vishay Dale
+Change Value of Parameter PartNumber in Part R25 Old=ERJ-6ENF4701V New=WSHM2818R0250FEA
+Change Value of Parameter Supplier Part Number 1 in Part R25 Old=P4.70KCCT-ND New=541-2629-1-ND

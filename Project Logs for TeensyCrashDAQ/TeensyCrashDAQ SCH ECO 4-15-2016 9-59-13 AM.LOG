@@ -1,0 +1,24 @@
+Change Component Parameter Description in C9 Old= New=8.2pF ±0.5pF 50V C0G, NP0 Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0201 (0603 Metric) 0.024" L x 0.012" W (0.60mm x 0.30mm)
+Change Value of Parameter PartNumber in Part C9 Old=GRM188R71H104KA93D New=GRM0335C1H8R2DA01D
+Change Value of Parameter Supplier Part Number 1 in Part C9 Old=490-1519-1-ND New=490-6133-2-ND
+Change Component Parameter Description in J3 Old= New=2 Positions Header, Shrouded Connector Through Hole Tin
+Change Value of Parameter Supplier 1 in Part J3 Old=Mouser New=Digi-Key
+Change Value of Parameter Supplier 2 in Part J3 Old=Digi-Key New=Mouser
+Change Value of Parameter Supplier Part Number 1 in Part J3 Old=538-39-29-9023 New=WM3853-ND
+Change Value of Parameter Supplier Part Number 2 in Part J3 Old= New=538-39-29-9023
+Change Component Parameter Comment in R4 Old= New=32.4k
+Change Component Parameter Description in R4 Old= New=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Value of Parameter PartNumber in Part R4 Old=ERJ-3EKF1001V New=ERJ-3EKF3242V
+Change Value of Parameter Supplier Part Number 1 in Part R4 Old=P1.00KHCT-ND New=P32.4KHCT-ND
+Change Component Parameter Comment in R8 Old= New=32.4k
+Change Component Parameter Description in R8 Old= New=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Value of Parameter PartNumber in Part R8 Old=ERJ-3EKF1001V New=ERJ-3EKF3242V
+Change Value of Parameter Supplier Part Number 1 in Part R8 Old=P1.00KHCT-ND New=P32.4KHCT-ND
+Change Component Parameter Comment in R9 Old= New=32.4k
+Change Component Parameter Description in R9 Old= New=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Value of Parameter PartNumber in Part R9 Old=ERJ-3EKF1001V New=ERJ-3EKF3242V
+Change Value of Parameter Supplier Part Number 1 in Part R9 Old=P1.00KHCT-ND New=P32.4KHCT-ND
+Change Component Parameter Comment in R10 Old= New=32.4k
+Change Component Parameter Description in R10 Old= New=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Value of Parameter PartNumber in Part R10 Old=ERJ-3EKF1001V New=ERJ-3EKF3242V
+Change Value of Parameter Supplier Part Number 1 in Part R10 Old=P1.00KHCT-ND New=P32.4KHCT-ND

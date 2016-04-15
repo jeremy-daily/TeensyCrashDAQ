@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=NetBRD1_32 Pin=C11-1
+Added Pin To Net: NetName=NetBRD1_32 Pin=C13-1
+Added Member To Class: ClassName=TeensyCrashDAQ Member=Component J5 Molex 39-30-2050
+Added Room: Name=CrashDAQSensors
+Added Room: Name=TeensyCrashDAQ

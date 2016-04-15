@@ -1,0 +1,61 @@
+Change Component Footprint: Designator=R16 Old Footprint=0603 New Footprint=2818
+Change Component Footprint: Designator=R25 Old Footprint=0603 New Footprint=2818
+Change Component Footprint: Designator=PTC1 Old Footprint=PTC New Footprint=2920
+Change Component Footprint: Designator=PTC2 Old Footprint=PTC New Footprint=2920
+Change Component Comment : Designator=C20 Old Comment=.0047uF New Comment=4700pF
+Change Component Comment : Designator=C10 Old Comment=1nF New Comment=1000pF
+Change Component Comment : Designator=C12 Old Comment=1nF New Comment=1000pF
+Change Component Comment : Designator=C8 Old Comment=1uF New Comment=1.0uF
+Change Component Comment : Designator=PTC1 Old Comment=4 Amp POLYFUSE New Comment=750mA
+Change Component Comment : Designator=PTC2 Old Comment=4 Amp POLYFUSE New Comment=750mA
+Change Component Comment : Designator=R12 Old Comment=5k New Comment=4.7k
+Change Component Comment : Designator=R4 Old Comment=30k New Comment=32.4k
+Change Component Comment : Designator=R8 Old Comment=30k New Comment=32.4k
+Change Component Comment : Designator=R9 Old Comment=30k New Comment=32.4k
+Change Component Comment : Designator=R10 Old Comment=30k New Comment=32.4k
+Change Component Comment : Designator=R19 Old Comment=30k New Comment=32.4k
+Change Component Description : Designator=C2 Old Description= New Description=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C5 Old Description= New Description=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C6 Old Description= New Description=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C11 Old Description= New Description=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C13 Old Description= New Description=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C18 Old Description= New Description=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C22 Old Description= New Description=0.10µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C15 Old Description= New Description=0.22µF ±10% 25V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C21 Old Description= New Description=0.47µF ±10% 25V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C8 Old Description= New Description=1µF ±10% 10V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C17 Old Description= New Description=1µF ±10% 10V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=J3 Old Description= New Description=2 Positions Header, Shrouded Connector Through Hole Tin
+Change Component Description : Designator=R1 Old Description= New Description=4.7k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R5 Old Description= New Description=4.7k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R6 Old Description= New Description=4.7k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R7 Old Description= New Description=4.7k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R12 Old Description= New Description=4.7k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R21 Old Description= New Description=4.7k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R22 Old Description= New Description=4.7k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=C1 Old Description= New Description=4.7µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 1206 
+Change Component Description : Designator=C19 Old Description= New Description=4.7µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 1206 
+Change Component Description : Designator=C23 Old Description= New Description=4.7µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 1206 
+Change Component Description : Designator=C24 Old Description= New Description=4.7µF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 1206 
+Change Component Description : Designator=R23 Old Description= New Description=6.04k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=C9 Old Description= New Description=8.2pF ±0.5pF 50V C0G, NP0 Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0201 (0603 Metric) 0.024" L x 0.012" W (0.60mm x 0.30mm)
+Change Component Description : Designator=R11 Old Description= New Description=10k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R13 Old Description= New Description=10k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R14 Old Description= New Description=10k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R15 Old Description= New Description=10k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R17 Old Description= New Description=10k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R18 Old Description= New Description=10k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=C27 Old Description= New Description=10µF -20%, +80% 16V Y5V (F) Ceramic Capacitor -30°C ~ 85°C Surface Mount, MLCC 120
+Change Component Description : Designator=C28 Old Description= New Description=10µF -20%, +80% 16V Y5V (F) Ceramic Capacitor -30°C ~ 85°C Surface Mount, MLCC 120
+Change Component Description : Designator=C29 Old Description= New Description=10µF -20%, +80% 16V Y5V (F) Ceramic Capacitor -30°C ~ 85°C Surface Mount, MLCC 120
+Change Component Description : Designator=C30 Old Description= New Description=10µF -20%, +80% 16V Y5V (F) Ceramic Capacitor -30°C ~ 85°C Surface Mount, MLCC 120
+Change Component Description : Designator=R4 Old Description= New Description=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R8 Old Description= New Description=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R9 Old Description= New Description=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R10 Old Description= New Description=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R19 Old Description= New Description=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=R24 Old Description= New Description=32.4k Ohm ±1% 0.1W, 1/10W Surface Mount Resistor Thick Film ±100ppm/°C 0603
+Change Component Description : Designator=C10 Old Description= New Description=1000pF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C12 Old Description= New Description=1000pF ±10% 50V X7R Ceramic Capacitor -55°C ~ 125°C Surface Mount, MLCC 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)
+Change Component Description : Designator=C14 Old Description= New Description=CAP CER 0.015UF 50V X7R 0603
+Change Component Description : Designator=NTC1 Old Description= New Description=THERMISTOR 10K OHM NTC 0603 SMD
