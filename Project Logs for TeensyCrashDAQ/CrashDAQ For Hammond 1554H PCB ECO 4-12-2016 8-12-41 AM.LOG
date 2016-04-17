@@ -1,7 +1,0 @@
-Added Component: Designator=J5(5 POS Vert MINI-FIT JR)
-Added Pin To Net: NetName=12VSWITCHED Pin=J5-1
-Added Pin To Net: NetName=12VSWITCHED Pin=J5-2
-Added Pin To Net: NetName=BAT Pin=J5-3
-Added Pin To Net: NetName=12V0 Pin=J5-4
-Added Pin To Net: NetName=GND Pin=J5-5
-Added Member To Class: ClassName=TeensyCrashDAQ Member=Component J5 Molex 39-30-2050

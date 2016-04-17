@@ -1,6 +1,0 @@
-Change Component Parameter Comment in PTC1 Old= New=750mA
-Change Component Parameter Description in PTC1 Old=Resettable Fuses - PPTC 60V POLYFUSE .900A RADIAL LEADS New=PTC RESETBL 60V 750MA SMD 2920
-Change Component Parameter Footprint in PTC1 Old=PTC New=2920
-Change Value of Parameter PartNumber in Part PTC1 Old=60R090XU New=2920L075/60MR
-Change Value of Parameter Supplier 1 in Part PTC1 Old=Mouser New=Digi-Key
-Change Value of Parameter Supplier Part Number 1 in Part PTC1 Old=507-1768-1-ND New=F5633CT-ND

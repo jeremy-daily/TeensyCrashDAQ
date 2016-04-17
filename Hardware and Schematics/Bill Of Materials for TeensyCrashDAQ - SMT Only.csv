@@ -1,0 +1,39 @@
+Comment,Description,Designator,Footprint,Manufacturer 1,Manufacturer Part Number 1,Quantity,Supplier 1,Supplier Part Number 1
+4.7uF,"4.7æF ñ10% 50V X7R Ceramic Capacitor -55øC ~ 125øC Surface Mount, MLCC 1206","C1, C19, C23, C24",1206,"Samsung Electro-Mechanics America, Inc.",CL31B475KBHNNNE,4,Digi-Key,1276-2789-1-ND
+0.1uF,"0.10æF ñ10% 50V X7R Ceramic Capacitor -55øC ~ 125øC Surface Mount, MLCC 0603 (1608 Metric) 0.063 L x 0.031"" W (1.60mm x 0.80mm)""","C2, C5, C6, C11, C13, C18, C22",603,Murata Electronics North America,GRM188R71H104KA93D,7,Digi-Key,490-1519-1-ND
+1.0uF,"1æF ñ10% 10V X5R Ceramic Capacitor -55øC ~ 85øC Surface Mount, MLCC 0603 (1608 Metric) 0.063 L x 0.031"" W (1.60mm x 0.80mm)""","C8, C17",603,Murata Electronics North America,GRM188R61A105KA61D,2,Digi-Key,490-1543-1-ND
+8.2pF,"8.2pF ñ0.5pF 50V C0G, NP0 Ceramic Capacitor -55øC ~ 125øC Surface Mount, MLCC 0201 (0603 Metric) 0.024 L x 0.012"" W (0.60mm x 0.30mm)""",C9,603,Murata Electronics North America,GRM0335C1H8R2DA01D,1,Digi-Key,490-6133-2-ND
+1000pF,"1000pF ñ10% 50V X7R Ceramic Capacitor -55øC ~ 125øC Surface Mount, MLCC 0603 (1608 Metric) 0.063 L x 0.031"" W (1.60mm x 0.80mm)""","C10, C12",603,Murata Electronics North America,GRM188R71H102KA01D,2,Digi-Key,490-1494-1-ND
+15nF,CAP CER 0.015UF 50V X7R 0603,C14,603,"Samsung Electro-Mechanics America, Inc.",CL10B153KB8SFNC,1,Digi-Key,1276-1967-1-ND
+0.22uF,"0.22æF ñ10% 25V X7R Ceramic Capacitor -55øC ~ 125øC Surface Mount, MLCC 0603 (1608 Metric) 0.063 L x 0.031"" W (1.60mm x 0.80mm)""",C15,603,Murata Electronics North America,GRM188R71E224KA88D,1,Digi-Key,490-3290-1-ND
+4700pF,Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 4700pF 50volts X7R 10%,C20,603,Murata Electronics North America,GRM188R71H472KA01D,1,Digi-Key,490-1506-1-ND
+0.47uF,"0.47æF ñ10% 25V X7R Ceramic Capacitor -55øC ~ 125øC Surface Mount, MLCC 0603 (1608 Metric) 0.063 L x 0.031"" W (1.60mm x 0.80mm)""",C21,603,Murata Electronics North America,GRM188R71E474KA12D,1,Digi-Key,490-3291-1-ND
+12 pF,CAP CER 12PF 50V NP0 0603,"C25, C26",603,Murata Electronics North America,GRM1885C1H120JA01D,2,Digi-Key,490-1405-1-ND
+10uF,"10æF -20%, +80% 16V Y5V (F) Ceramic Capacitor -30øC ~ 85øC Surface Mount, MLCC 120","C27, C28, C29, C30, C31, C32",1206,Yageo,CC1206ZKY5V7BB106,6,Digi-Key,311-1376-1-ND
+Red,LED RED DIFFUSED 0805 SMD,D1,0805 Polarized,OSRAM Opto Semiconductors Inc.,LS R976-NR-1,1,Digi-Key,475-1278-1-ND
+B360A-13-F,DIODE SCHOTTKY 60V 3A SMA,"D2, D3",SMA with A and K,Diodes Incorporated,B360A-13-F,2,Digi-Key,B360A-FDICT-ND
+80 Ohms,Ferrite Bead 80ohms 100MHz 5A Monolithic 0805 SMD,"L1, L2",805,Laird Technologies,HI0805R800R-10,2,Digi-Key,240-2395-1-ND
+8.2 uH,FIXED IND 8.2UH 5.05A 28.6 MOHM,L3,Inductor - 1045,Wurth Electronics Inc,7447797820,1,Digi-Key,732-2213-1-ND
+10k NTC,THERMISTOR 10K OHM NTC 0603 SMD,NTC1,603,Murata Electronics North America,NCP18XH103F03RB,1,Digi-Key,490-4800-1-ND
+750mA,PTC RESETBL 60V 750MA SMD 2920,"PTC1, PTC2",2920,Littelfuse Inc.,2920L075/60MR,2,Digi-Key,F5633CT-ND
+IRF9328,MOSFET P-CH 30V 12A 8-SOIC,"Q1, Q2",SOIC-8,Infineon Technologies Americas Corp.,IRF9328PBF,2,Digi-Key,IRF9328PBF-ND
+4.7k,"4.7k Ohm ñ1% 0.1W, 1/10W Surface Mount Resistor Thick Film ñ100ppm/øC 0603","R1, R5, R6, R7, R12, R21, R22, R26",603,Panasonic Electronic Components,ERJ-3EKF4701V,8,Digi-Key,P4.70KHCT-ND
+470,RES SMD 470 OHM 1% 1/10W 0603,R2,603,Panasonic Electronic Components,ERJ-3EKF4700V,1,Digi-Key,P470HCT-ND
+180k,RES SMD 180K OHM 1% 1/10W 0603,R3,603,Panasonic Electronic Components,ERJ-3EKF1803V,1,Digi-Key,P180KHCT-ND
+32.4k,"32.4k Ohm ñ1% 0.1W, 1/10W Surface Mount Resistor Thick Film ñ100ppm/øC 0603","R4, R8, R9, R10, R19, R24",603,Panasonic Electronic Components,ERJ-3EKF3242V,6,Digi-Key,P32.4KHCT-ND
+10k,"10k Ohm ñ1% 0.1W, 1/10W Surface Mount Resistor Thick Film ñ100ppm/øC 0603","R11, R13, R14, R15, R17, R18",603,Panasonic Electronic Components,ERJ-3EKF1002V,6,Digi-Key,P10.0KHCT-ND
+0.04,0.04 Ohm ñ1% 7W Surface Mount Resistor Metal Element ñ75ppm/øC 2818,R16,2818,Vishay Dale,WSHM2818R0400FEA,1,Digi-Key,541-2632-1-ND
+309k,RES SMD 309K OHM 1% 1/10W 0603,R20,603,Panasonic Electronic Components,ERJ-3EKF3093V,1,Digi-Key,P309KHCT-ND
+6.04k,"6.04k Ohm ñ1% 0.1W, 1/10W Surface Mount Resistor Thick Film ñ100ppm/øC 0603",R23,603,Stackpole Electronics Inc.,RMCF0603FT6K04,1,Digi-Key,RMCF0603FT6K04CT-ND
+0.025,0.025 Ohm ñ1% 7W Surface Mount Resistor Metal Element ñ75ppm/øC 2818,R25,2818,Vishay Dale,WSHM2818R0250FEA,1,Digi-Key,541-2629-1-ND
+microSD,CONN MICRO SD CARD PUSH-PUSH R/A,SD1,SD Card Holder,Amphenol Commercial Products,101-00660-68-6,1,Digi-Key,101-00660-68-6-1-ND
+MCP2562,"High-Speed CAN Transceiver, 8-Pin PDIP, Industrial Temperature",U1,SOIC-8,Microchip Technology,MCP2562FD-E/SN,1,Digi-Key,MCP2562FD-E/SN-ND
+NCV8403ASTT1G,"Self-Protected Low Side Driver with Temperature and Current Limit, 4-Pin SOT-223, Pb-Free, Tape and Reel","U3, U4, U5, U13",ONSC-SOT-223-4-318E-04_V,ON Semiconductor,NCV8403ASTT1G,4,Digi-Key,NCV8403ASTT1GOSCT-ND
+MCP1825ST-3302E/DB,"500 mA, Low Voltage, Low Quiescent Current LDO Regulator, 3-Pin SOT-223, Extended Temperature, Tape and Reel","U6, U14, U15",SOT-223-DB3_M,Microchip Technology,MCP1825ST-3302E/DB,3,Digi-Key,MCP1825ST-3302E/DBCT-ND
+ADXL001-250,IC ACCELEROMETER 250G 8CLCC,"U7, U9",ADI-E-8-1_V,Analog Devices Inc.,ADXL001-250BEZ,2,Digi-Key,ADXL001-250BEZ-ND
+ADXL375,+/- 200G IC ACCEL SPI/I2C 3AX 14LGA,U8,ADI-CC-14-1_V,Analog Devices Inc.,ADXL375BCCZ-RL7,1,Digi-Key,ADXL375BCCZ-RL7CT-ND
+BNO055,IMUs - Inertial Measurement Units Absolute Orientation 9-Axis Sensor,U10,BNO055 LGA,Bosch Sensortec,BNO055,1,Mouser,262-BNO055
+LTC4006EGN-2,"4 A, High Efficiency, Standalone Li-Ion Battery Charger, 6 to 28 V Vin, 16-pin SOP (GN-16), -40 to 85 degC",U11,LT-GN-16_N,Linear Technology,LTC4006EGN-2#PBF,1,Digi-Key,LTC4006EGN-2#PBF-ND
+LSM9DS0 IMU,MOD ACCELEROMETER 3D 24LGA,U12,LGA 4x4x1 mm 24-lead,STMicroelectronics,LSM9DS0TR,1,Digi-Key,497-13902-1-ND
+32.768KHz,Crystal 32.7680kHz 20ppm 12.5pF 70 kOhm -40øC - 85øC Surface Mount 2-SMD,X1,XTAL 2 pad,ECS Inc.,ECS-.327-12.5-39-TR,1,Digi-Key,XC1658CT-ND
+SMA6J,TVS DIODE 24VWM 38.9VC SMA,"Z1, Z2",SMA,Micro Commercial Co,SMA6J24CA-TP,2,Digi-Key,SMA6J24CA-TPMSCT-ND
