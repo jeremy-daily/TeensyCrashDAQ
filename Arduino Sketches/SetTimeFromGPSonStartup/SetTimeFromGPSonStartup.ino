@@ -20,6 +20,7 @@ char GPSfilename[29];
 
     
 #define SDchipSelect 15 //chip select for SD Card
+#define AccelChipSelect 21 //chip select for SD Card
 
 #define SerialGPS Serial1 //Sets up the GPS serial port for the Teensy
 #define timeZoneOffset -5 //Central Daylight Time
@@ -111,6 +112,8 @@ time_t setRTCwithGPS(int timeout){
 void setup(){
   pinMode(SDchipSelect,OUTPUT);
   digitalWrite(SDchipSelect,HIGH);
+  pinMode(AccelChipSelect,OUTPUT);
+  digitalWrite(AccelChipSelect,HIGH);
   
   pinMode(A3,OUTPUT); //led
   digitalWrite(A3,HIGH);
