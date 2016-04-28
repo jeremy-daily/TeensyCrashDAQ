@@ -22,8 +22,15 @@ char GPSfilename[29];
 #define SDchipSelect 15 //chip select for SD Card
 #define AccelChipSelect 21 //chip select for SD Card
 
+
+
 #define SerialGPS Serial1 //Sets up the GPS serial port for the Teensy
 #define timeZoneOffset -5 //Central Daylight Time
+
+const int ACPPin = 5; // for Charge management
+const int INTPin = 6 ;
+const int IMONPin = 23; 
+const int VSensePin = 14; 
 
 
 TinyGPS gps; //create a gps instance
@@ -41,12 +48,13 @@ uint8_t numClockSetAttempts=0;
 
 boolean SDOK = false;
 boolean LEDState = true;
+boolean ACPState = false;
 
 unsigned long age, date, time, chars = 0;
 unsigned short sentences = 0, failed = 0;
 
 double LONDON_LAT = 51.508131, LONDON_LON = -0.128002; //These are the start points
- 
+
 time_t getTeensy3Time(){
   return Teensy3Clock.get();
 }
@@ -60,6 +68,7 @@ time_t setRTCwithGPS(int timeout){
         // when TinyGPS reports new data...
         int year;
         byte month, day, hour, minute, second, hundredths;
+  
         unsigned long age;
         gps.crack_datetime(&year, &month, &day, &hour, &minute, &second, &hundredths, &age);
         char sz[32];
@@ -115,6 +124,9 @@ void setup(){
   pinMode(AccelChipSelect,OUTPUT);
   digitalWrite(AccelChipSelect,HIGH);
   
+  pinMode(ACPPin,INPUT_PULLUP);
+  digitalWrite(ACPPin,HIGH);
+  
   pinMode(A3,OUTPUT); //led
   digitalWrite(A3,HIGH);
   
@@ -151,10 +163,12 @@ void setup(){
     Serial.println("          (deg)     (deg)      Age                      Age  (m)    --- from GPS ----  ---- to London  ----  RX    RX        Fail");
     
     sprintf(GPSfilename, "%04d-%02d-%02d_%02d%02d%02d_GPSlog.csv", year(),month(),day(),hour(),minute(),second()); 
+    SdFile::dateTimeCallback(dateTime);
     File GPSdataFile = SD.open(GPSfilename, O_RDWR | O_CREAT | O_APPEND);
     GPSdataFile.println("Time,Speed,Time Diff,Sats,HDOP,Latitude,Longitude,Fix,Date,Time,Date Age,Altitude,Course,Cardinal,Dist. from Start,Course From Start,RX Chars,RX Sentences,Checksum");
     GPSdataFile.println("(sec),(mph),(microsec),(count),(-),(microdegees),(microdegrees),(milliseconds),(MM/DD/YYYY),(HH:MM:SS.ss),(milliseconds),(meters),(degres),(-),(meters),(degrees),(count),(count),(0=Pass/1=Fail)");
     GPSdataFile.close();
+    SdFile::dateTimeCallbackCancel(); //keeps the time of creation of the file from being updated
   }
   else 
   {
@@ -207,6 +221,17 @@ void loop()
  
   
   
+}
+
+void dateTime(uint16_t* date, uint16_t* time) {
+  // User gets date and time from GPS or real-time
+  // clock in real callback function
+
+  // return date using FAT_DATE macro to format fields
+  *date = FAT_DATE(year(), month(), day());
+
+  // return time using FAT_TIME macro to format fields
+  *time = FAT_TIME(hour(), minute(), second());
 }
 
 void writeGPStoSD(){
