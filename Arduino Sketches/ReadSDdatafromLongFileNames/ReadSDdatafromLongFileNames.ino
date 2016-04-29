@@ -3,10 +3,10 @@
 // SdFat/examples/LongFileName/testFiles.
 #include<SPI.h>
 #include "SdFat.h"
-#include "FreeStack.h"
+//#include "FreeStack.h"
 
 // SD card chip select pin.
-const uint8_t SD_CS_PIN = A1;
+const uint8_t SD_CS_PIN = 9;
 
 SdFat sd;
 SdFile file;
@@ -22,7 +22,7 @@ const uint16_t nMax = 10;
 uint16_t dirIndex[nMax];
 //------------------------------------------------------------------------------
 void setup() {
-  5
+  
   Serial.begin(9600);
   while (!Serial) {}
   delay(1000);
@@ -35,9 +35,9 @@ void setup() {
   if (!sd.begin(SD_CS_PIN)) {
     sd.initErrorHalt();
   }
-  Serial.print(F("FreeStack: "));
-  Serial.println(FreeStack());
-  Serial.println();
+  //Serial.print(F("FreeStack: "));
+  //Serial.println(FreeStack());
+  //Serial.println();
 
   // List files in root directory.
   if (!dirFile.open("/", O_READ)) {
@@ -69,7 +69,7 @@ void loop() {
   Serial.print(F("\r\nEnter File Number: "));
 
   while ((c = Serial.read()) < 0) {
-    SysCall::yield();
+    //SysCall::yield();
   }
   uint8_t i = c - '0';
   if (!isdigit(c) || i >= n) {
