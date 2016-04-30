@@ -610,11 +610,11 @@ void setup(void) {
     // wait enough time for the first timer conversion to finish (depends on resolution and averaging),
     // with 16 averages, 12 bits, and ADC_MED_SPEED in both sampling and conversion speeds it takes about 36 us.
   
- //     delayMicroseconds(50); // if we wait less than 36us the timer1 will interrupt the conversion
- //  startTimerValue1 = timer1.begin(timer1_callback, LOG_INTERVAL_USEC);
+      delayMicroseconds(50); // if we wait less than 36us the timer1 will interrupt the conversion
+   startTimerValue1 = timer1.begin(timer1_callback, LOG_INTERVAL_USEC);
     
     adc->enableInterrupts(ADC_0);
-    adc->enableInterrupts(ADC_1);
+    //adc->enableInterrupts(ADC_1);
 
     Serial.println("Timers started.");
 }
@@ -663,41 +663,44 @@ void loop(void) {
 
 // This function will be called with the desired frequency
 // start the measurement
-void timer0_callback(void) {
-    adc->analogSynchronizedRead(readPins[0], readPins[1]); // also: startSingleRead, startSingleDifferential, analogSynchronizedRead, analogSynchronizedReadDifferential
-}
-void adc0_isr(){
-  buffer0->write(adc->readSingle());
-}
-void adc1_isr(){
-  buffer1->write(adc->readSingle());
-}
-//void timer1_callback(void) {
-//    adc->startSingleRead(readPins[1], ADC_0);
+//void timer0_callback(void) {
+//    adc->analogSynchronizedRead(readPins[0], readPins[1]); // also: startSingleRead, startSingleDifferential, analogSynchronizedRead, analogSynchronizedReadDifferential
 //}
+//void adc0_isr(){
+//  buffer0->write(adc->readSingle());
+//}
+//void adc1_isr(){
+//  buffer1->write(adc->readSingle());
+//}
+void timer0_callback(void) {
+    adc->startSingleRead(readPins[0], ADC_0);
+}
 
+void timer1_callback(void) {
+    adc->startSingleRead(readPins[1], ADC_0);
+}
 //// when the measurement finishes, this will be called
 //// first: see which pin finished and then save the measurement into the correct buffer
-//void adc0_isr() {
-//
-//    uint8_t pin = ADC::sc1a2channelADC0[ADC0_SC1A&ADC_SC1A_CHANNELS]; // the bits 0-4 of ADC0_SC1A have the channel
-//   
-//    // add value to correct buffer
-//    if(pin==readPins[0]) {
-//         buffer0->write(adc->readSingle());
-//    } 
-//    else if(pin==readPins[1]) {
-//         buffer1->write(adc->readSingle());
-//     }
-//    else { // clear interrupt anyway
-//        adc->readSingle();
-//    }
-//
-//    // restore ADC config if it was in use before being interrupted by the analog timer
-//    if (adc->adc0->adcWasInUse) {
-//        // restore ADC config, and restart conversion
-//        adc->adc0->loadConfig(&adc->adc0->adc_config);
-//        // avoid a conversion started by this isr to repeat itself
-//        adc->adc0->adcWasInUse = false;
-//    }
-//}
+void adc0_isr() {
+
+    uint8_t pin = ADC::sc1a2channelADC0[ADC0_SC1A&ADC_SC1A_CHANNELS]; // the bits 0-4 of ADC0_SC1A have the channel
+   
+    // add value to correct buffer
+    if(pin==readPins[0]) {
+         buffer0->write(adc->readSingle());
+    } 
+    else if(pin==readPins[1]) {
+         buffer1->write(adc->readSingle());
+     }
+    else { // clear interrupt anyway
+        adc->readSingle();
+    }
+
+    // restore ADC config if it was in use before being interrupted by the analog timer
+    if (adc->adc0->adcWasInUse) {
+        // restore ADC config, and restart conversion
+        adc->adc0->loadConfig(&adc->adc0->adc_config);
+        // avoid a conversion started by this isr to repeat itself
+        adc->adc0->adcWasInUse = false;
+    }
+}
