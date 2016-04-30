@@ -241,7 +241,8 @@ void binaryToCsv() {
   Serial.println(F(" - type any character to stop"));
   printHeader(&csvFile);
   uint32_t tPct = millis();
-  while (!Serial.available() && binFile.read(&block, 512) == 512) {
+//  while (!Serial.available() && binFile.read(&block, 512) == 512) {
+    while (binFile.read(&block, 512) == 512) {
     uint16_t i;
     if (block.count == 0) {
       break;
@@ -333,8 +334,9 @@ void dumpData() {
   Serial.println(F("Type any character to stop"));
   delay(1000);
   printHeader(&Serial);
-  while (!Serial.available() && binFile.read(&block , 512) == 512) {
-    if (block.count == 0) {
+  //while (!Serial.available() && binFile.read(&block , 512) == 512) {
+  while ( binFile.read(&block , 512) == 512) {
+      if (block.count == 0) {
       break;
     }
     if (block.overrun) {
@@ -557,18 +559,22 @@ void logData() {
 //------------------------------------------------------------------------------
 void setup(void) {
   if (ERROR_LED_PIN >= 0) {
+    
     pinMode(ERROR_LED_PIN, OUTPUT);
   }
   pinMode(recordSwitchPin,INPUT);
   recording = digitalRead(recordSwitchPin);
   digitalWrite(ERROR_LED_PIN,HIGH);
  
+  pinMode(13, OUTPUT);
+  digitalWrite(13,HIGH);
+ 
   pinMode(SD_CS_PIN,OUTPUT); //Prevent interference on the SD
   digitalWrite(SD_CS_PIN,HIGH);
    pinMode(Accel_CS_PIN,OUTPUT); //Prevent interference on the 
   digitalWrite(Accel_CS_PIN,HIGH);
  
-  Serial.begin(9600);
+  //Serial.begin(9600);
   delay(1000);
 
   Serial.print(F("FreeRam: "));
@@ -622,7 +628,7 @@ void setup(void) {
 void loop(void) {
   // discard any input
   
-  while (Serial.read() >= 0) {}
+  //while (Serial.read() >= 0) {}
   Serial.println();
   Serial.println(F("type:"));
   Serial.println(F("c - convert file to csv"));
@@ -630,11 +636,12 @@ void loop(void) {
   Serial.println(F("e - overrun error details"));
   Serial.println(F("r - record data"));
   
-  while(!Serial.available()) {
+  while(1) {
       if (digitalRead(recordSwitchPin)) {
-        delay(30);
+        delay(50);
         if (digitalRead(recordSwitchPin)) logData();
       }
+      if (Serial.available()) break;
   }
   serialInput = tolower(Serial.read());
   
